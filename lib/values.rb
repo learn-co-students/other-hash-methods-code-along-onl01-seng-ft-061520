@@ -10,4 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+
+  all = groceries.map { |type, item| item}
+  all.join(" ").split
+
 end
