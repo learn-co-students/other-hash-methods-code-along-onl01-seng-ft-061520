@@ -1,4 +1,6 @@
-# Higher Level Hash Methods
+def get_the_min(groceries)
+  groceries.values.flatten.min
+end# Higher Level Hash Methods
 
 ## Objectives
 
